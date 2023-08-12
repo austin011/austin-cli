@@ -1,0 +1,17 @@
+{
+  "name": "austin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6",
+    "@types/node": "^20.4.10"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "start": "node dist/index.js"
+  }
+}
