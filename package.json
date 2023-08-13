@@ -1,6 +1,6 @@
 {
   "name": "austin-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "exports": "./dist/index.js",
   "bin": {
     "austin": "./dist/index.js"
@@ -21,7 +21,7 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "build": "tsup src/index.ts",
+    "build": "tsup src/index.ts --format cjs --minify",
     "austin-cli": "node dist/index.js"
   },
   "main": "index.js",
